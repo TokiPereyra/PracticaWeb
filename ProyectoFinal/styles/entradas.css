@@ -1,0 +1,24 @@
+
+.entrada {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid black;
+    background-color: rgb(168, 209, 223);
+}
+
+.entrada h4 {
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .entrada {
+        width: 95%;
+    }
+}
+
+h3 {
+    text-align: left;
+    margin-left: 40px;
+}

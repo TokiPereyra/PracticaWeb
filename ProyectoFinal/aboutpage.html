@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deEscritores</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/barra-desplazable.css">
+    <link rel="stylesheet" href="styles/general.css">
+    </head>
+<body>
+
+    <header>
+
+        <input type="checkbox" id="boton-menu">
+        <label for="boton-menu"><img src="images/bars-solid.svg" alt="" height="30px" width="30px"></label>
+
+        <nav class="menu">
+            <h1 style="text-align: center; letter-spacing: 3px; color: white;">deEscritores</h1>
+            
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="principiantes.html">Principiantes</a></li>
+                <li><a href="narrativa.html">Narrativa</a></li>
+                <li><a href="poesia.html">Poética</a></li>
+                <li><a href="estilos.html">Estilo y Ortotipografía</a></li>
+                <li><a href="otros-consejos.html">Otros Consejos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main style="text-align: center;">
+
+        <h1 style="text-align: center; padding: 30px;">Sobre la página</h1>
+        <p style="font-size: 20px;">El tema que elegí para desarrollar esta página es una web con consejos e ideas útiles para lo escritores...</p>
+        <br>
+        <p>Te cuento un poco acerca de como fue el proceso de desarrollo de esta página web:</p>
+        <p>Para empezar yo quería añadir una barra lateral que diera un menú de guía de la página, así que busqué un tutorial en YouTube que me guiara al respecto, y lo encontré... abajo te lo dejo. En el aprendí a hacer la barra lateral, pero, en el caso de que la pantalla no fuera pequeña, no se mostraría la barra lateral sino un encabezado con los mismos enlaces, el cual podés ver arriba e incluso utilizarlo para navegar por la página.</p>
+        <p>Luego me propuse que la barra de navegación lateral fuera fija, pero sin afectar al encabezado principal. Esto lo hice mediante el <strong>position: fixed</strong> apicándolo tanto a la cabecera como a la barra lateral pero solo en el caso de que fuera una pantalla pequeña.</p>
+        <p>En cuanto al resto fue de mi propio diseño... Por ejemplo el diseño de <strong>blog</strong> para insertar entradas facilmente y mostrarlas cada una en su sección pero también mostrar todas en la página de inicio. Por supuesto que también tuve que profundizar en cómo manejar el <strong>margin</strong> y el <strong>padding</strong> para poder centrar elementos, no solo texto, o separarlos de los otros.</p>
+
+        <br>
+        <br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FL_odxf4zq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </main>
+
+    <footer class="footer">
+        <h5><strong>deEscritores</strong> | Tomás Emmanuel Pereyra <a href="https://twitter.com/TokiPereyra"><img src="images/twitter-brands.svg" alt="Ir a Twitter" width="20px"></a>  <a href="https://www.linkedin.com/in/tomás-emmanuel-pereyra-a69b341b2"><img src="images/linkedin-brands.svg" alt="Ir a LinkedIn" width="20px"></a></h5>
+        <h6>Correo electrónico: deescritores@gmail.com</h6>
+    </footer>
+
+</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,29 @@
+#main {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#img-div {
+    
+}
+
+#image {
+    text-align: center;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+#img-caption {
+    font-size: 30px;
+}
+
+#tribute-info {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
